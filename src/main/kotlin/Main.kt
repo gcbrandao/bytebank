@@ -1,5 +1,8 @@
 package br.com.alura.bytebank
 
+import java.math.BigDecimal
+import java.math.RoundingMode
+
 fun main() {
     val idade1 =  25
 
@@ -7,35 +10,12 @@ fun main() {
     //testaArrayIntArrayOf()
 
    // testaSalarios()
-    testaRange()
+    //testaRange()
+   // testaAgregacao()
+
+    //testaPontoFlutuante()
 }
 
 
 
-fun testaAgregacao() {
-    val idades = intArrayOf(10, 12, 17, 54, 67)
-
-    idades.
-
-}
-
-
-
-
-fun testaRange() {
-    val serie: IntRange = 1.rangeTo(10)
-    for (s in serie){
-        println("$s")
-    }
-
-    val intervalo  = 1500..5000
-    val valor =  2300
-    if(valor in intervalo){
-        println("Valor $valor esta no intervalo")
-    } else {
-        println("Valor $valor nao esta no intervalo")
-    }
-
-
-}
 
