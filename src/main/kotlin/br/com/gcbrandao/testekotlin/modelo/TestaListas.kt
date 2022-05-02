@@ -80,3 +80,18 @@ fun List<Livro?>.imprimeComMarcadores() {
     println("#### Lista de LIvros #### \n $textoFormatado")
 }
 
+fun listasUnicas() {
+    val cursoAndroid = listOf("joao", "maria", "paulo", "pedro")
+    val cursoKotlin = listOf("joao", "maria", "alex", "jonas")
+    val ambos = cursoKotlin + cursoAndroid
+
+    // ambos.addAll(cursoKotlin)
+    //ambos.addAll(cursoAndroid)
+
+    println(ambos.distinct())
+}
+
+
+
+
+
